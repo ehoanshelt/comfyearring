@@ -924,3 +924,25 @@ object {
 .gallery-caption {
 	display: block;
 }
+
+/*--------------------------------------------------------------
+## Header/Sidebar
+--------------------------------------------------------------*/
+
+.site-header{
+	max-width: 250px;
+	position: fixed;
+	z-index: 3000;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	height: 100%;
+	background-color: #FFF;
+	box-sizing: border-box;
+	border: 1px solid #eaeaea;
+}
+
+.site-header .site-branding a {
+	    border-bottom: 1px solid #eaeaea;
+	    padding-bottom: 15px;
+	}
+}
