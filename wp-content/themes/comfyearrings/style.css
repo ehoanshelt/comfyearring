@@ -951,11 +951,21 @@ object {
 	    border-bottom: 1px solid #eaeaea;
 	    padding-bottom: 15px;
 	}
-}
 
 /*--------------------------------------------------------------
 ## Site Content Layout
 --------------------------------------------------------------*/
 .site-content{
 	margin-left:250px
+}
+
+/*--------------------------------------------------------------
+## Home Page Specific
+--------------------------------------------------------------*/
+.home .entry-header{
+	display:none;
+}
+
+.home .entry-content{
+	margin-top:0;
 }
