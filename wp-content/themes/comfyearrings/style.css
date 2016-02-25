@@ -567,16 +567,21 @@ a:active {
 	list-style: none;
 	margin: 0;
 	padding-left: 0;
+	padding-top: 15px;
 }
 
 .main-navigation li {
-	float: left;
-	position: relative;
+	text-align: center;
+	display: block;
+	width: 100%;
+	border-bottom: 1px solid #eaeaea;
+	padding: 7px 0;
 }
 
 .main-navigation a {
 	display: block;
 	text-decoration: none;
+	color: #000;
 }
 
 .main-navigation ul ul {
@@ -603,6 +608,7 @@ a:active {
 
 .main-navigation li:hover > a,
 .main-navigation li.focus > a {
+	color:#1A80B6;
 }
 
 .main-navigation ul ul :hover > a,
@@ -945,4 +951,12 @@ object {
 	    border-bottom: 1px solid #eaeaea;
 	    padding-bottom: 15px;
 	}
+}
+
+/*--------------------------------------------------------------
+## Header/Sidebar
+--------------------------------------------------------------*/
+.site-content{
+	position:absolute;
+	left:250px;
 }
