@@ -954,9 +954,8 @@ object {
 }
 
 /*--------------------------------------------------------------
-## Header/Sidebar
+## Site Content Layout
 --------------------------------------------------------------*/
 .site-content{
-	position:absolute;
-	left:250px;
+	margin-left:250px
 }
