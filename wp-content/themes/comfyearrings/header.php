@@ -21,10 +21,9 @@
 </head>
 
 <body <?php body_class(); ?>>
-<div id="page" class="site">
-	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'comfyproto' ); ?></a>
+<div id="page" class="site row">
 
-	<header id="masthead" class="site-header" role="banner">
+	<header id="masthead" class="site-header four column" role="banner">
 		<div class="site-branding">
 			<a href="<?php bloginfo('url'); ?>"><img src="https://comfyearrings.com/wp-content/uploads/2014/11/comfy-earrings-logo-website-smaller.png" /></a>
 		</div><!-- .site-branding -->
@@ -35,4 +34,4 @@
 		</nav><!-- #site-navigation -->
 	</header><!-- #masthead -->
 
-	<div id="content" class="site-content">
+	<div id="content" class="site-content eight column">
