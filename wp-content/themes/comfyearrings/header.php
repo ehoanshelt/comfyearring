@@ -34,4 +34,4 @@
 		</nav><!-- #site-navigation -->
 	</header><!-- #masthead -->
 
-	<div id="content" class="site-content nine columns">
+	<div id="content" class="site-content offset-by-three nine columns">
