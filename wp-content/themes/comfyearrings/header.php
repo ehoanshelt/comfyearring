@@ -23,7 +23,7 @@
 <body <?php body_class(); ?>>
 <div id="page" class="site row">
 
-	<header id="masthead" class="site-header four column" role="banner">
+	<header id="masthead" class="site-header three columns" role="banner">
 		<div class="site-branding">
 			<a href="<?php bloginfo('url'); ?>"><img src="https://comfyearrings.com/wp-content/uploads/2014/11/comfy-earrings-logo-website-smaller.png" /></a>
 		</div><!-- .site-branding -->
@@ -34,4 +34,4 @@
 		</nav><!-- #site-navigation -->
 	</header><!-- #masthead -->
 
-	<div id="content" class="site-content eight column">
+	<div id="content" class="site-content nine columns">
