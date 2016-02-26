@@ -114,7 +114,11 @@ add_action( 'widgets_init', 'comfyproto_widgets_init' );
  * Enqueue scripts and styles.
  */
 function comfyproto_scripts() {
-	wp_enqueue_style( 'comfyproto-style', get_stylesheet_uri() );
+	wp_enqueue_style( 'comfyproto-normalize', get_template_directory_uri() . '/layout/normalize.css' );
+
+	wp_enqueue_style( 'comfyproto-style', get_stylesheet_uri(),  array('comfyproto-normalize'));
+
+	wp_enqueue_style( 'comfyproto-skelton', get_template_directory_uri() . '/layout/skeleton.css',  array('comfyproto-style'));
 
 	wp_enqueue_script( 'comfyproto-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
 
