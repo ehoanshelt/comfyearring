@@ -20,7 +20,7 @@
 <?php wp_head(); ?>
 </head>
 
-<body <?php body_class(); ?>>
+<body <?php body_class('row'); ?>>
 <div id="page" class="site row">
 
 	<header id="masthead" class="site-header three columns" role="banner">

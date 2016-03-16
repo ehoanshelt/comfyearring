@@ -13,7 +13,7 @@
 
 	</div><!-- #content -->
 
-	<footer id="colophon" class="site-footer" role="contentinfo">
+	<footer id="colophon" class="site-footer offset-by-three nine columns" role="contentinfo">
 		<div class="site-info">
 			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'comfyproto' ) ); ?>"><?php printf( esc_html__( 'Proudly powered by %s', 'comfyproto' ), 'WordPress' ); ?></a>
 			<span class="sep"> | </span>
